@@ -1,0 +1,47 @@
+body{
+	background-image: url(back.jpg);
+	background-size: cover;
+}
+#titre{
+	text-align: center;
+	color:#8bb78aeb;
+	font-size: 70px;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+#blocs{
+	margin-left:35%;
+	margin-right:35%;
+	border-radius:5px;
+	background-color:#c2ffff4f;
+	margin-bottom:2%;
+	transition: margin-right 2s;
+	color: #073412eb;
+	font-weight: 900;
+
+}
+.bloc{
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+#resultatFaux{
+	color: #590202e6;
+}
+.bouton{
+		background-color:  #102a2ab8;
+		border-radius:5px;
+		border:2px solid rgba(48, 48, 107, 0.32);
+		margin-bottom: 10px;		
+		cursor: pointer;
+		overflow-wrap: break-word;
+		text-align:center;
+		width:auto;
+		color: #b2e3ead9;
+}
+.bouton:hover{
+	background-color:rgba(48, 48, 107, 0.32);
+}
+.bouton:focus{
+	background-color:rgba(48, 48, 107, 0.32);
+	outline-style:none; /* bordure moche*/
+}
